@@ -1,0 +1,11 @@
+bulb=[0]*1001
+for i in range(0,1000):
+    Z=i+1
+    for j in range(Z,10001,Z):
+        if(bulb[j]==0):
+            bulb[j]=1
+        else:
+            bulb[j]=0
+del(bulb[0])
+print(bulb)
+            
